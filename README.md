@@ -59,7 +59,7 @@ scp /root/1panel-migration-backup.tar.gz root@新服务器IP:/root/
 
 **默认节点：**
 ```bash
-bash -c "$(curl -fsSL (https://ghfast.top/https://raw.githubusercontent.com/52lkj/1panel-migration/master/restore.sh)"
+bash -c "$(curl -fsSL https://ghfast.top/https://raw.githubusercontent.com/52lkj/1panel-migration/master/restore.sh"
 ```
 
 **备用节点 1 (ghfast)：**
