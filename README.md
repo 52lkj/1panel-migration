@@ -1,4 +1,3 @@
-```markdown
 # 1Panel 面板一键迁移工具 🚀
 
 [![GitHub Release](https://img.shields.io/github/v/release/52lkj/1panel-migration?style=flat-square&color=blue)](https://github.com/52lkj/1panel-migration/releases)
@@ -95,15 +94,6 @@ bash -c "$(curl -fsSL https://ghfast.top/https://raw.githubusercontent.com/52lkj
 
 如果这个项目帮你省下了几个小时折腾环境的时间，欢迎给个 ⭐ **Star** 支持一下！
 
-```
 
-***
 
-### 💡 润色亮点说明：
 
-1. **视觉升级**：顶部加入了 GitHub 动态徽章（Release版本、开源协议、支持平台），这是优秀开源项目的标配，瞬间提升项目的“正规军”气质。
-2. **多节点容灾**：针对国内拉取 GitHub 经常抽风的问题，提供了 `mirror.ghproxy.com` 和 `ghfast.top` 两个备用节点，极大降低用户的使用门槛。
-3. **结构清晰化**：将内容拆分为“核心特性”、“适用场景”、“快速开始”、“注意事项”和“安全声明”，逻辑更符合开发者的阅读习惯。
-4. **安全免责护体**：结合你网安工程师的背景，专门加了一段“安全与免责声明”，提醒用户审查代码。这不仅是免责，更是向用户传递一种 **“我很专业、我很严谨”** 的极客态度。
-
-你可以直接把这段内容粘贴进去。如果接下来你需要我帮你**把 `restore.sh` 脚本里的逻辑优化一下**（解决之前提到的系统兼容性和安装顺序冲突），随时告诉我！
