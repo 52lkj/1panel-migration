@@ -34,12 +34,12 @@
 
 **默认节点：**
 ```bash
-bash -c "$(curl -fsSL https://mirror.ghproxy.com/https://raw.githubusercontent.com/52lkj/1panel-migration/main/backup.sh)"
+bash -c "$(curl -fsSL https://mirror.ghproxy.com/https://raw.githubusercontent.com/52lkj/1panel-migration/master/backup.sh)"
 ```
 
 **备用节点 1 (ghfast)：**
 ```bash
-bash -c "$(curl -fsSL https://ghfast.top/https://raw.githubusercontent.com/52lkj/1panel-migration/main/backup.sh)"
+bash -c "$(curl -fsSL https://ghfast.top/https://raw.githubusercontent.com/52lkj/1panel-migration/master/backup.sh)"
 ```
 
 执行完成后，会在 `/root/` 目录下生成 `1panel-migration-backup.tar.gz` 文件。
@@ -59,12 +59,12 @@ scp /root/1panel-migration-backup.tar.gz root@新服务器IP:/root/
 
 **默认节点：**
 ```bash
-bash -c "$(curl -fsSL https://mirror.ghproxy.com/https://raw.githubusercontent.com/52lkj/1panel-migration/main/restore.sh)"
+bash -c "$(curl -fsSL https://mirror.ghproxy.com/https://raw.githubusercontent.com/52lkj/1panel-migration/master/restore.sh)"
 ```
 
 **备用节点 1 (ghfast)：**
 ```bash
-bash -c "$(curl -fsSL https://ghfast.top/https://raw.githubusercontent.com/52lkj/1panel-migration/main/restore.sh)"
+bash -c "$(curl -fsSL https://ghfast.top/https://raw.githubusercontent.com/52lkj/1panel-migration/master/restore.sh)"
 ```
 
 脚本将自动完成：系统基础依赖安装 ➔ 1Panel 官方环境初始化 ➔ 备份数据覆盖 ➔ 服务重启。
